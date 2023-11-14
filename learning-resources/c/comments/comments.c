@@ -1,7 +1,7 @@
 /* 
  * contens between #if 0 and #endif are comments
  * useful when commenting the code snippet that contains multi-line comments
-*/ 
+ */ 
 #if 0 
 /* A large amount of code with multi-line comments */ 
 int main(void)
@@ -17,7 +17,7 @@ int main(void)
  * this is a
  * multi-line
  * comment
-*/
+ */
 
 // double forward slashes style introduced by C99
 
