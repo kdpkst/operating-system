@@ -1,6 +1,5 @@
 #!/bin/bash
 function getsum() {
-	
 	echo $[$NUM1+$NUM2]
 }
 
