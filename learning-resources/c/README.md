@@ -1,4 +1,4 @@
-# C Language 
+# C Basics
 This folder contains C code examples organized by different topics to facilitate a structured learning path. The code examples are all based on the free online [book](https://goalkicker.com/CBook).
 
 ## Learning Order
