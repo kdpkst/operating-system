@@ -24,5 +24,12 @@ This folder contains C code examples organized by different topics to facilitate
    - assignment_pitfall.c
    - logical_operators.c
    - pointer_arithmetics.c
+   - alignment_requirement.c
 5. [boolean-usages](./boolean-usages)
+   - boolean1
+   - boolean2
+   - boolean3
+   - boolean4
+   - boolean5
+   
 
