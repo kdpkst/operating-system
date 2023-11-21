@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(void){
-    // size_t is the type of sizeof()
+    // size_t is a special unsigned integer type used to represent the size of objects in bytes
     size_t int_size = sizeof(int);
     printf("%zu bytes\n", int_size);
     printf("%zu bytes\n", sizeof(int));

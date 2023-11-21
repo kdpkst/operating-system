@@ -3,11 +3,15 @@
 int addition(int x, int y);
 
 int main(void){
+    int a = 5, b = 10;
+    // declare a pointer to a function that takes two int parameters and returns an int
     int (*fn)(int, int) = &addition;
-    int x = 42;
-    int y = 123;
-    printf("(*fn)(%i, %i) = %i\n", x, y, (*fn)(x, y)); /* output fn(42, 123) = 207 */
-    printf("fn(%i, %i) = %i\n", x, y, fn(x, y)); /* Another form: you don't need to dereference explicitly */
+    // the following two are equivalent
+    printf("%d\n", (*fn)(a, b));
+    printf("%d\n", fn(a, b));
+    // direct function call
+    printf("%d\n", addition(a, b));
+    
     return 0;
 }
 

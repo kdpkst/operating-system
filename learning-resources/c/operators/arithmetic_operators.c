@@ -5,8 +5,8 @@ void modulo_example();
 void increment_decrement_example();
 
 int main(void){
-    // division_example();
-    // modulo_example();
+    division_example();
+    modulo_example();
     increment_decrement_example();
     return 0;
 }
