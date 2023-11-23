@@ -26,10 +26,12 @@ This folder contains C code examples organized by different topics to facilitate
    - pointer_arithmetics.c
    - alignment_requirement.c
 5. [boolean-usages](./boolean-usages)
-   - boolean1
-   - boolean2
-   - boolean3
-   - boolean4
-   - boolean5
+   - boolean1.c
+   - boolean2.c
+   - boolean3.c
+   - boolean4.c
+   - pointers_in_boolean_expressions.c
+6. [strings](./strings)
+   - ...
    
 
