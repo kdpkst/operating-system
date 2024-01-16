@@ -32,6 +32,9 @@ This folder contains C code examples organized by different topics to facilitate
    - boolean4.c
    - pointers_in_boolean_expressions.c
 6. [strings](./strings)
-   - ...
+   - intro_to_strings.c
+   - tokenization.c
+   - string_literals.c
+   - string_length.c
    
 
