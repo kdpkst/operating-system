@@ -15,7 +15,7 @@ int main(void) {
 void strtok_example(){
     int toknum = 0;                            
     char src[] = "Hello,, world!";      
-    // delimiters is a string containing the delimiter characters (comman, space, exclamation mark)   
+    // delimiters is a string containing the delimiter characters (comma, space...)   
     // multiple consecutive delimiters in the source string are treated as one
     // for src string the second comma will be ignored    
     const char delimiters[] = ", !";     
@@ -27,10 +27,8 @@ void strtok_example(){
 
     while (token != NULL) {
         printf("%d: [%s]\n", ++toknum, token); 
-        /*
-         * calls to strtok to continue tokenizing the same source string should not 
-         * pass the source string again, but instead pass NULL as the ﬁrst argument
-         */
+        // calls to strtok to continue tokenizing the same source string should not 
+        // pass the source string again, but instead pass NULL as the ﬁrst argument
         token = strtok(NULL, delimiters);      
     }
 }
